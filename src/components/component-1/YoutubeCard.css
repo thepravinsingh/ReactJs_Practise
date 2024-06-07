@@ -1,0 +1,26 @@
+.container {
+  display: inline-block;
+}
+.yCardImg {
+  width: 100%;
+  border-radius: 10px;
+}
+.yHeading4 {
+  font-size: 0.8rem;
+  padding-top: 10px;
+}
+.yPara {
+  font-size: 0.7rem;
+  padding-block: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .yHeading4 {
+    font-size: 0.5rem;
+    padding-top: 10px;
+  }
+  .yPara {
+    font-size: 0.4rem;
+    padding-block: 10px;
+  }
+}

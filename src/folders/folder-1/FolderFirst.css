@@ -1,0 +1,28 @@
+.gridContainer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 50px auto;
+  gap: 5px;
+  width: 800px;
+}
+.uprPortion {
+  grid-column: 1 / span 4;
+  padding-block: 10px;
+}
+.button-big {
+  padding: 7px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin-right: 5px;
+  border-radius: 7px;
+}
+.button-small {
+  padding: 7px;
+  border: none;
+  color: black;
+  background-color: #eee;
+  margin-right: 5px;
+  border-radius: 7px;
+}

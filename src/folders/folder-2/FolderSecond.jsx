@@ -38,7 +38,7 @@ const FolderSecond = () => {
       <SectionLayout
         icon={preference}
         heading="Preference tests"
-        para="Find out which designs users prefer and why taat"
+        para="Find out which designs users prefer and why test"
       />
       <SectionLayout
         icon={test}
